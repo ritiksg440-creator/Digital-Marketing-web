@@ -59,3 +59,19 @@ nav a{
 .secondary-btn{
   background-color: #e5e7eb;
 }
+@media(max-width:768px){
+  nav{
+    flex-direction:column;
+    gap:1rem;
+  }
+
+  .hero h1{
+    font-size:1.8rem;
+  }
+
+  .hero-buttons{
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+  }
+}
