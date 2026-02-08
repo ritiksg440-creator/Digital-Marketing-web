@@ -49,7 +49,7 @@ nav a{
   padding:0.8rem 1.5rem;
   border:none;
   border-radius:6px;
-  margin:0 0.5;
+  margin:0 0.5rem;
   cursor: pointer;
 }
 .primary-btn{
@@ -88,7 +88,7 @@ nav a{
   color:#666;
   margin-bottom: 2rem;
 }
-.services-cards{
+.service-cards{
   display: flex;
   flex-direction: column;
   gap:1.2rem;
@@ -106,15 +106,18 @@ nav a{
 }
 .card:hover {
   transform: translateY(-5px);
-}/* For tablets and larger screens */
+}
 @media (min-width: 768px) {
-.services-cards {
+.service-cards {
     flex-direction: row;
     justify-content: center;
+    gap: 2rem;
   }
+
 .card {
-    width: 30%;
+    width: 280px;
   }
+
 .services h2 {
     font-size: 2.5rem;
   }
