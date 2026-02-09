@@ -200,3 +200,62 @@ nav a{
     gap:2rem;
   }
 }
+.contact{
+  padding:3rem 1rem;
+  text-align:center;
+  background:#f8f9fb;
+}
+
+.contact h2{
+  font-size:2rem;
+  margin-bottom:0.5rem;
+}
+
+.contact-desc{
+  color:#666;
+  margin-bottom:2rem;
+}
+
+.contact-form{
+  display:flex;
+  flex-direction:column;
+  gap:1rem;
+  max-width:500px;
+  margin:auto;
+}
+
+.contact-form input,
+.contact-form textarea{
+  padding:0.8rem;
+  border:1px solid #ddd;
+  border-radius:6px;
+}
+
+.contact-form button{
+  padding:0.8rem;
+  background:#2563eb;
+  color:white;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.contact-form button:hover{
+  background:#1d4ed8;
+}
+@media (min-width:768px){
+
+  .contact h2{
+    font-size:2.5rem;
+  }
+
+  .contact-form{
+    max-width:600px;
+  }
+
+  .contact-form input,
+  .contact-form textarea{
+    font-size:1rem;
+  }
+
+}
